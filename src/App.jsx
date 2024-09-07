@@ -19,6 +19,7 @@ import vacaciones from './assets/img_16.png'
 import tuto from './assets/img_17.png'
 import modelo1 from './assets/img_18.png'
 import modelo2  from './assets/img_19.png'
+import scroll from './assets/scroll.png'
 import './App.css'
 import {
     Animator,
@@ -126,6 +127,9 @@ function App() {
                         Happy year together my love!
                         <div className='emojis'>
                             🐕❤️🐈‍⬛
+                        </div>
+                        <div className={'scroll'}>
+                        <img src={scroll } alt={'scroll'} className={'scroll'}/>
                         </div>
                     </Animator>
                 </ScrollPage>
