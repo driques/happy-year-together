@@ -187,7 +187,7 @@ function App() {
     // )
       return (
         <div>
-            Si algun dia ves esto, por favor jamas me escribas, necesito sacarme esto de alguna forma, te he escrito desde siempre.
+{/*             Si algun dia ves esto, por favor jamas me escribas, necesito sacarme esto de alguna forma, te he escrito desde siempre.
             
 He pensado demasiados días en escribirte, las cosas por acá no van bien, todo me recuerda a ti, incluso donde vivo es un eterno recuerdo de ti, debo aprender a soltarte, el sillón, la alfombra, el refrigerador, el baño, la cocina, las plantas, la cama, todo trae tu recuerdo consigo, lloro todas las noches pensando en que aparecerás tocándome el timbre, diciéndome que solo no nos entendimos un rato pero que ya lo haces, que entiendes que te amo, que quiero estar contigo, que entiendes que por amar a mi familia no dejaré de amarte a ti. 
 Todos los días solo vienen recuerdos preciosos a tu lado, yo sé que una vez me pediste que dejara de tomar screenshots a nuestras discusiones, pero es lo único que me aterriza y me lleva a piso, que me hace sentir y pensar en porque nos separamos.
@@ -284,6 +284,7 @@ Ya es abril, volví a soñar contigo, me extrañaras como lo hago?
 No sé cómo dejar de amarte.
 Tu, siempre tu, en todas partes, en todos lados, tu, siempre tu.
 Domingo 18 de mayo, te extraño tanto, me iré de este departamento, eres un constante recuerdo, te amé y te amo mucho, no dejo de recordar tu silueta en Valparaíso mientras caminábamos por los cerros, y esa noche en viña que caminábamos buscando que comer y tomar, como el viento tomaba tu pelo, espero de todo corazón dejar de pensarte, amarte y esperarte pronto, no puedo seguir con esto.
+         */}
         </div>
     )
  // return (
