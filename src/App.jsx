@@ -114,12 +114,6 @@ function App() {
         [],
     );
 
-    return (
-        <div>
-            
-        </div>
-    )
-
     // return (
     //     <div>
     //         He pensado demasiados días en escribirte, las cosas por acá no van bien, todo me recuerda a ti, incluso donde vivo es un eterno recuerdo de ti, debo aprender a soltarte, el sillón, la alfombra, el refrigerador, el baño, la cocina, las plantas, la cama, todo trae tu recuerdo consigo, lloro todas las noches pensando en que aparecerás tocándome el timbre, diciéndome que solo no nos entendimos un rato pero que ya lo haces, que entiendes que te amo, que quiero estar contigo, que entiendes que por amar a mi familia no dejaré de amarte a ti.
@@ -191,210 +185,210 @@ function App() {
     //         Hoy vi como conociste a alguien más en tiktok, yo sé que cuando sigues alguien ahí es porque quieres compartir con el, no sigues a nadie mas, no seguías a nadie más, por qué tan rápido amor?, por qué?, dijiste que me amabas amor.
     //     </div>
     // )
-    // return (
-    //     <>
-    //         <Particles
-    //             id="tsparticles"
-    //             particlesLoaded={particlesLoaded}
-    //             options={options}
-    //         />
-    //         <ScrollContainer>
-    //             <ScrollPage page={0}>
-    //                 <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
-    //                     Happy year together my love!
-    //                     <div className='emojis'>
-    //                         🐕❤️🐈‍⬛
-    //                     </div>
-    //                     <div className={'scroll'}>
-    //                     <img src={scroll } alt={'scroll'} className={'scroll'}/>
-    //                     </div>
-    //                 </Animator>
-    //             </ScrollPage>
-    //             <ScrollPage page={1}>
-    //                 <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
-    //                     Un año juntos mi amor, que rápido pasa el tiempo, siempre a tu lado, te amo mucho mi amor!
-    //                 </Animator>
-    //             </ScrollPage>
-    //             <ScrollPage page={2}>
-    //                 <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
-    //                     <img
-    //                         src={besoVina} alt={'foto1'} className='foto-borde'/>
-    //                     Feliz aniversario mi amor, te amo mucho!
-    //                 </Animator>
-    //             </ScrollPage>
-    //
-    //             <ScrollPage page={4}>
-    //                 <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
-    //                     <div className={'fotos-bebe'}>
-    //                         <img
-    //                             src={diegoChiquito} className='foto-borde-redondo' alt="logo"/>
-    //                         <img
-    //                             src={coteChiquita} className='foto-borde-redondo' alt="logo"/>
-    //                     </div>
-    //                     Nos conocimos de chiquitos, muy chiquitos, y nunca nadie pensó que nos volveríamos a encontrar.
-    //                 </Animator>
-    //             </ScrollPage>
-    //             <ScrollPage page={5}>
-    //                 <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
-    //                     <img
-    //                         src={fotoPescado} className="foto-borde-redondo" alt="logo"/>
-    //                     Ni yo pensé que esa salida y el helado de pescadito quedaría en mi memoria para siempre.
-    //                 </Animator>
-    //             </ScrollPage>
-    //             <ScrollPage page={6}>
-    //                 <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
-    //                     <img
-    //                         src={fotoFlores} className="foto-borde-redondo" alt="logo"/>
-    //                     Como yo nunca imaginé que me regalarías flores.
-    //                 </Animator>
-    //             </ScrollPage>
-    //             <ScrollPage page={7}>
-    //                 <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
-    //                     <img
-    //                         src={fotoCumple} className="foto-borde-redondo" alt="logo"/>
-    //                     Ni pensé que me celebraríamos mi cumple juntos.
-    //                 </Animator>
-    //             </ScrollPage> <ScrollPage page={8}>
-    //             <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
-    //                 <img
-    //                     src={pololeo} className="foto-borde-redondo" alt="logo"/>
-    //                 No recordaba los nervios de la vez que te pedí pololeo.
-    //             </Animator>
-    //         </ScrollPage> <ScrollPage page={9}>
-    //             <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
-    //                 <img
-    //                     src={playita1} className="foto-borde-redondo" alt="logo"/>
-    //                 Pero siempre recuerdo lo mucho que disfruté la playa a tu lado, y que siempre la playa en mi mente
-    //                 eres tú.
-    //             </Animator>
-    //         </ScrollPage> <ScrollPage page={10}>
-    //             <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
-    //                 <img
-    //                     src={playita2} className="foto-borde-redondo" alt="logo"/>
-    //                 <img
-    //                     src={playita3} className="foto-borde-redondo" alt="logo"/>
-    //                 Y todas las siguientes veces
-    //             </Animator>
-    //         </ScrollPage> <ScrollPage page={11}>
-    //             <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
-    //                 <img
-    //                     src={salida1} className="foto-borde-redondo" alt="logo"/>
-    //                 <img
-    //                     src={salida2} className={'foto-borde-redondo'} alt="logo"/>
-    //                 <img
-    //                     src={salida3}className={'foto-borde-redondo'} alt="logo"/>
-    //                 Así mismo amando todas nuestras salidas
-    //             </Animator>
-    //         </ScrollPage> <ScrollPage page={12}>
-    //             <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
-    //                 <img
-    //                     src={navidad} className="foto-borde-redondo" alt="logo"/>
-    //                 <img
-    //                     src={postre} className={'foto-borde-redondo'} alt={'logo'}/>
-    //                 Pasando navidad junto a ti, que anhelo que sean muchas más
-    //             </Animator>
-    //         </ScrollPage> <ScrollPage page={13}>
-    //             <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
-    //                 <img
-    //                     src={recreacion} className={'foto-borde-redondo'} alt="logo"/>
-    //                 Recreando momentos juntos
-    //             </Animator>
-    //         </ScrollPage> <ScrollPage page={14}>
-    //             <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
-    //                 <img
-    //                     src={vacaciones} className="foto-borde-redondo" alt="logo"/>
-    //                 Y vacaciones que quiero que sean eternas, repetirlas mil veces más!
-    //             </Animator>
-    //         </ScrollPage> <ScrollPage page={15}>
-    //             <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
-    //                 <img src={tuto} className="foto-borde-redondo" alt="logo"/>
-    //
-    //                      En tus brazos (aunque te cargue) me siento como un niño.
-    //             </Animator>
-    //         </ScrollPage> <ScrollPage page={16}>
-    //             <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
-    //                <img src={modelo1} className="foto-borde-redondo" alt="logo"/>
-    //                <img src={modelo2} className='foto-borde-redondo' alt={'logo'}/>
-    //                 Y como siempre te digo, eres la mujer más hermosa del mundo, eres la modelo perfecta para mi cámara.
-    //             </Animator>
-    //         </ScrollPage> <ScrollPage page={17}>
-    //         <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
-    //             Sé que han sido días difíciles, definitivamente los más difíciles que nos ha tocado vivir.
-    //             Pero tengo la certeza de que juntos, con amor, paciencia y perseverancia, saldremos adelante.
-    //               Te amo con todo mi corazón, todo mi corazón, todo mi corazón es solo tuyo, y nada ni nadie podrá cambiar eso, ni siquiera el tiempo. ❤️
-    //         </Animator>
-    //         </ScrollPage>
-    //             <ScrollPage page={18}>
-    //                 <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
-    //                     <div className={'video'}>
-    //                         <iframe width="380" height="215"
-    //                                 src="https://www.youtube.com/embed/d5gf9dXbPi0?si=vqudVLiOt9TP_AFb"
-    //                                 title="YouTube video player" frameBorder="0"
-    //                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    //                                 referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-    //                     </div>
-    //                 </Animator>
-    //             </ScrollPage>
-    //             <ScrollPage page={18}>
-    //                 <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
-    //                     Te amo
-    //                 </Animator>
-    //             </ScrollPage>
-    //             <ScrollPage page={18}>
-    //                 <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
-    //                     Te amo
-    //                 </Animator>
-    //             </ScrollPage>
-    //             <ScrollPage page={18}>
-    //             <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
-    //                     Te amo
-    //                 </Animator>
-    //             </ScrollPage>
-    //             <ScrollPage page={18}>
-    //                 <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
-    //                     Te amo
-    //                 </Animator>
-    //             </ScrollPage>
-    //             <ScrollPage page={18}>
-    //                 <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
-    //                     Te amo
-    //                 </Animator>
-    //             </ScrollPage>
-    //             <ScrollPage page={18}>
-    //                 <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
-    //                     Te amo
-    //                 </Animator>
-    //             </ScrollPage>
-    //             <ScrollPage page={18}>
-    //                 <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
-    //                     Te amo
-    //                 </Animator>
-    //             </ScrollPage>
-    //             <ScrollPage page={18}>
-    //                 <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
-    //                     Te amo
-    //                 </Animator>
-    //             </ScrollPage>
-    //             <ScrollPage page={18}>
-    //                 <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
-    //                     Te amo
-    //                 </Animator>
-    //             </ScrollPage>
-    //             <ScrollPage page={18}>
-    //                 <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
-    //                     Te amo
-    //                 </Animator>
-    //                 <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
-    //                     Te amo
-    //                 </Animator>
-    //                 <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
-    //                     Te amo
-    //                 </Animator>
-    //             </ScrollPage>
-    //
-    //         </ScrollContainer>
-    //     </>
-    // )
+     return (
+        <>
+            <Particles
+                id="tsparticles"
+                particlesLoaded={particlesLoaded}
+                options={options}
+            />
+            <ScrollContainer>
+                <ScrollPage page={0}>
+                    <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
+                        Happy year together my love!
+                        <div className='emojis'>
+                            🐕❤️🐈‍⬛
+                        </div>
+                        <div className={'scroll'}>
+                        <img src={scroll } alt={'scroll'} className={'scroll'}/>
+                        </div>
+                    </Animator>
+                </ScrollPage>
+                <ScrollPage page={1}>
+                    <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
+                        Un año juntos mi amor, que rápido pasa el tiempo, siempre a tu lado, te amo mucho mi amor!
+                    </Animator>
+                </ScrollPage>
+                <ScrollPage page={2}>
+                    <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
+                        <img
+                            src={besoVina} alt={'foto1'} className='foto-borde'/>
+                        Feliz aniversario mi amor, te amo mucho!
+                    </Animator>
+                </ScrollPage>
+    
+                <ScrollPage page={4}>
+                    <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
+                        <div className={'fotos-bebe'}>
+                            <img
+                                src={diegoChiquito} className='foto-borde-redondo' alt="logo"/>
+                            <img
+                                src={coteChiquita} className='foto-borde-redondo' alt="logo"/>
+                        </div>
+                        Nos conocimos de chiquitos, muy chiquitos, y nunca nadie pensó que nos volveríamos a encontrar.
+                    </Animator>
+                </ScrollPage>
+                <ScrollPage page={5}>
+                    <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
+                        <img
+                            src={fotoPescado} className="foto-borde-redondo" alt="logo"/>
+                        Ni yo pensé que esa salida y el helado de pescadito quedaría en mi memoria para siempre.
+                    </Animator>
+                </ScrollPage>
+                <ScrollPage page={6}>
+                    <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
+                        <img
+                            src={fotoFlores} className="foto-borde-redondo" alt="logo"/>
+                        Como yo nunca imaginé que me regalarías flores.
+                    </Animator>
+                </ScrollPage>
+                <ScrollPage page={7}>
+                    <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
+                        <img
+                            src={fotoCumple} className="foto-borde-redondo" alt="logo"/>
+                        Ni pensé que me celebraríamos mi cumple juntos.
+                    </Animator>
+                </ScrollPage> <ScrollPage page={8}>
+                <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
+                    <img
+                        src={pololeo} className="foto-borde-redondo" alt="logo"/>
+                    No recordaba los nervios de la vez que te pedí pololeo.
+                </Animator>
+            </ScrollPage> <ScrollPage page={9}>
+                <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
+                    <img
+                        src={playita1} className="foto-borde-redondo" alt="logo"/>
+                    Pero siempre recuerdo lo mucho que disfruté la playa a tu lado, y que siempre la playa en mi mente
+                    eres tú.
+                </Animator>
+            </ScrollPage> <ScrollPage page={10}>
+                <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
+                    <img
+                        src={playita2} className="foto-borde-redondo" alt="logo"/>
+                    <img
+                        src={playita3} className="foto-borde-redondo" alt="logo"/>
+                    Y todas las siguientes veces
+                </Animator>
+            </ScrollPage> <ScrollPage page={11}>
+                <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
+                    <img
+                        src={salida1} className="foto-borde-redondo" alt="logo"/>
+                    <img
+                        src={salida2} className={'foto-borde-redondo'} alt="logo"/>
+                    <img
+                        src={salida3}className={'foto-borde-redondo'} alt="logo"/>
+                    Así mismo amando todas nuestras salidas
+                </Animator>
+            </ScrollPage> <ScrollPage page={12}>
+                <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
+                    <img
+                        src={navidad} className="foto-borde-redondo" alt="logo"/>
+                    <img
+                        src={postre} className={'foto-borde-redondo'} alt={'logo'}/>
+                    Pasando navidad junto a ti, que anhelo que sean muchas más
+                </Animator>
+            </ScrollPage> <ScrollPage page={13}>
+                <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
+                    <img
+                        src={recreacion} className={'foto-borde-redondo'} alt="logo"/>
+                    Recreando momentos juntos
+                </Animator>
+            </ScrollPage> <ScrollPage page={14}>
+                <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
+                    <img
+                        src={vacaciones} className="foto-borde-redondo" alt="logo"/>
+                    Y vacaciones que quiero que sean eternas, repetirlas mil veces más!
+                </Animator>
+            </ScrollPage> <ScrollPage page={15}>
+                <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
+                    <img src={tuto} className="foto-borde-redondo" alt="logo"/>
+    
+                         En tus brazos (aunque te cargue) me siento como un niño.
+                </Animator>
+            </ScrollPage> <ScrollPage page={16}>
+                <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
+                   <img src={modelo1} className="foto-borde-redondo" alt="logo"/>
+                   <img src={modelo2} className='foto-borde-redondo' alt={'logo'}/>
+                    Y como siempre te digo, eres la mujer más hermosa del mundo, eres la modelo perfecta para mi cámara.
+                </Animator>
+            </ScrollPage> <ScrollPage page={17}>
+            <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
+                Sé que han sido días difíciles, definitivamente los más difíciles que nos ha tocado vivir.
+                Pero tengo la certeza de que juntos, con amor, paciencia y perseverancia, saldremos adelante.
+                  Te amo con todo mi corazón, todo mi corazón, todo mi corazón es solo tuyo, y nada ni nadie podrá cambiar eso, ni siquiera el tiempo. ❤️
+            </Animator>
+            </ScrollPage>
+                <ScrollPage page={18}>
+                    <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
+                        <div className={'video'}>
+                            <iframe width="380" height="215"
+                                    src="https://www.youtube.com/embed/d5gf9dXbPi0?si=vqudVLiOt9TP_AFb"
+                                    title="YouTube video player" frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                        </div>
+                    </Animator>
+                </ScrollPage>
+                <ScrollPage page={18}>
+                    <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
+                        Te amo
+                    </Animator>
+                </ScrollPage>
+                <ScrollPage page={18}>
+                    <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
+                        Te amo
+                    </Animator>
+                </ScrollPage>
+                <ScrollPage page={18}>
+                <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
+                        Te amo
+                    </Animator>
+                </ScrollPage>
+                <ScrollPage page={18}>
+                    <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
+                        Te amo
+                    </Animator>
+                </ScrollPage>
+                <ScrollPage page={18}>
+                    <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
+                        Te amo
+                    </Animator>
+                </ScrollPage>
+                <ScrollPage page={18}>
+                    <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
+                        Te amo
+                    </Animator>
+                </ScrollPage>
+                <ScrollPage page={18}>
+                    <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
+                        Te amo
+                    </Animator>
+                </ScrollPage>
+                <ScrollPage page={18}>
+                    <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
+                        Te amo
+                    </Animator>
+                </ScrollPage>
+                <ScrollPage page={18}>
+                    <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
+                        Te amo
+                    </Animator>
+                </ScrollPage>
+                <ScrollPage page={18}>
+                    <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
+                        Te amo
+                    </Animator>
+                    <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
+                        Te amo
+                    </Animator>
+                    <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 200))}>
+                        Te amo
+                    </Animator>
+                </ScrollPage>
+    
+            </ScrollContainer>
+        </>
+    )
 }
 
 export default App
